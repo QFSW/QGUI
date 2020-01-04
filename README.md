@@ -1,6 +1,6 @@
 # QGUI ![](https://img.shields.io/github/issues-closed-raw/QFSW/QGUI.svg?color=51c414) ![](https://img.shields.io/github/issues-raw/QFSW/QGUI.svg?color=c41414&style=popout)
-#### V1.0.0
-A simple but effective IMGUI library for when EditorGUILayout is unavailable
+A simple but effective IMGUI library for when EditorGUILayout is unavailable. It was created for internal use within my various tools and plugins 
+ - [QuantumConsole](https://assetstore.unity.com/packages/tools/utilities/quantum-console-128881)
 
 QGUI provides the `LayoutController` that eases working with Rects by being able to reserve the demanded space within the rect, automatically applying padding and offsets for you
 
