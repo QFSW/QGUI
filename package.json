@@ -1,0 +1,18 @@
+{
+  "name": "com.qfsw.qgui",
+
+  "displayName": "QGUI",
+  "author": "QFSW",
+  "description": "A simple but effective IMGUI library for when EditorGUILayout is unavailable.",
+
+  "bugs": {
+    "email": "support@qfsw.co.uk",
+    "url": "https://github.com/QFSW/QGUI/issues"
+  },
+
+  "version": "1.0.0",
+  "unity": "2018.3",
+
+  "license": "LICENSE.txt",
+  "readme": "README.md"
+}
