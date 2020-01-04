@@ -1,4 +1,5 @@
-# QGUI ![](https://img.shields.io/github/issues-closed-raw/QFSW/QGUI.svg?color=51c414) ![](https://img.shields.io/github/issues-raw/QFSW/QGUI.svg?color=c41414&style=popout)
+# QGUI[](https://img.shields.io/github/issues-closed-raw/QFSW/QGUI.svg?color=51c414) ![](https://img.shields.io/github/issues-raw/QFSW/QGUI.svg?color=c41414&style=popout)
+#### V1.0.0
 A simple but effective IMGUI library for when EditorGUILayout is unavailable
 
 QGUI provides the `LayoutController` that eases working with Rects by being able to reserve the demanded space within the rect, automatically applying padding and offsets for you
