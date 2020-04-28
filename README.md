@@ -38,7 +38,7 @@ To install via package manager, add the file `Packages/manifest.json` and add th
 "com.qfsw.qgui": "https://github.com/QFSW/QGUI.git"
 ```
 Your file should end up like this 
-```json
+```
 {
   "dependencies": {
     "com.qfsw.qgui": "https://github.com/QFSW/QGUI.git",
