@@ -33,6 +33,18 @@ namespace QFSW.QGUI
             return GUI.Button(rect, content, style);
         }
 
+        public static void LabelAuto(GUIContent content, GUIStyle style)
+        {
+            Vector2 size = style.CalcSize(content);
+            GUILayout.Label(content, style, GUILayout.Width(size.x));
+        }
+
+        public static void LabelAuto(LayoutController layout, GUIContent content, GUIStyle style)
+        {
+            Rect rect = layout.ReserveAuto(content, style);
+            GUI.Label(rect, content, style);
+        }
+
         public static Vector2 GetMaxContentSize(GUIStyle style, params GUIContent[] contents)
         {
             Vector2 maxSize = new Vector2();
