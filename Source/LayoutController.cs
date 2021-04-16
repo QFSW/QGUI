@@ -64,9 +64,9 @@ namespace QFSW.QGUI
         {
             Rect drawRect = _currentRect;
             drawRect.width = width;
-            drawRect.width -= HorizontalPadding;
 
             PushToUndoStack();
+            width += HorizontalPadding;
             _currentRect.x += width;
             _currentRect.width -= width;
 
@@ -87,7 +87,7 @@ namespace QFSW.QGUI
             drawRect.width = width;
 
             PushToUndoStack();
-            _currentRect.width -= HorizontalPadding;
+            width += HorizontalPadding;
             _currentRect.width -= width;
 
             return drawRect;
